@@ -9,5 +9,7 @@ package com.example.kotlinclasshomework.kotlinClass
  * Посмотри, что будет выведено в терминал
  */
 fun main() {
-    // TODO здесь нужно создать объект своего класса и вызывать у него методы haveLunch() и goHome()
+    val hitsEmp: HITsDesigner = HITsDesigner()
+    hitsEmp.haveLunch()
+    hitsEmp.goHome()
 }
